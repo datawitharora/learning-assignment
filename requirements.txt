@@ -1,0 +1,8 @@
+from flask import Flask, jsonify, render_template, request, redirect, url_for
+from pymongo import MongoClient
+import certifi
+import json
+import os
+
+pip install python
+pip install python-dotenv
