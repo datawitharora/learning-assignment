@@ -1,9 +1,10 @@
+from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, request, redirect, url_for
 from pymongo import MongoClient
 import certifi
 import json
 import os
-
+load_dotenv()
 app = Flask(__name__)
 
 #mongodb connection
